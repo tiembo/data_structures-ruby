@@ -1,5 +1,5 @@
 require 'spec_helper'
-#require '../lib/node'
+require './lib/node'
 
 describe Node do
   describe '#visit' do

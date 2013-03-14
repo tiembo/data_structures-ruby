@@ -1,2 +1,1 @@
-data_structures-ruby
-====================
+Data structures, written in Ruby

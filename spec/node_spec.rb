@@ -3,8 +3,8 @@ require './lib/node'
 
 describe Node do
   describe '#visit' do
-    it 'should return payload' do
-      Node.new(1).visit.should == 1
+    it 'returns payload' do
+      expect(Node.new(1).visit).to eq(1)
     end
   end
 end

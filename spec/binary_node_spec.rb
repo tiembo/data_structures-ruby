@@ -3,16 +3,16 @@ require './lib/binary_node'
 
 describe BinaryNode do
   describe '#initilize' do
-    it 'should initialize left and right children to nil by default' do
+    it 'initializes left and right children to nil by default' do
       b = BinaryNode.new(1)
-      b.left_child.should be_nil
-      b.right_child.should be_nil
+      expect(b.left_child).to be_nil
+      expect(b.right_child).to be_nil
     end
   end
 
   describe '#visit' do
-    it 'should return payload' do
-      BinaryNode.new(1).visit.should == 1
+    it 'returns payload' do
+      expect(BinaryNode.new(1).visit).to eq(1)
     end
   end
 end
